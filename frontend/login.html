@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT • Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="login-wrapper">
+
+    <div class="login-card">
+
+        <p class="login-tag">Secure Access</p>
+
+        <h1>IoT</h1>
+
+        <p class="login-subtitle">
+            Sign in to manage your devices.
+        </p>
+
+        <form id="loginForm">
+
+            <input
+                id="username"
+                type="text"
+                placeholder="Username"
+                required
+            >
+
+            <input
+                id="password"
+                type="password"
+                placeholder="Password"
+                required
+            >
+
+            <button class="btn btn-primary" id="loginButton">
+                Sign In
+            </button>
+
+            <p id="status"></p>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="js/login.js"></script>
+
+</body>
+</html>
